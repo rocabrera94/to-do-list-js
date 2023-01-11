@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: rgb(217, 219, 219);
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 25px;
+    margin-bottom: 3vh;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+  text-align: center;
+  
+  width: 35vw;
+}
+
+form{
+    margin-bottom: 2vh;
+    padding: 0px;
+    width: 35vw;
+    min-height: 25px;
+}
+
+.li-container{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 15px 20px 45px 3px rgb(176, 187, 187);
+}
+
+
+ul li{
+    display: flex;
+    list-style: none;
+    align-items: stretch;
+    
+    
+}
+
+ul li p{
+    width: 22vw;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+#x-btn{
+    width: 30px;
+    height: 25px;
+    align-self: center;
+    justify-content: center;    
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(243, 49, 49);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+#x-btn:hover{
+    background-color: red;
+}
+
+input{
+    width: 64%;
+    height:21px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 15px;
+    margin-bottom: 5px;
+
+}
+
+input:focus{
+    border: 1px solid rgb(53, 178, 228);
+    border-color: rgb(53, 178, 228);
+    outline: none;
+    background-color: rgb(241, 239, 239);
+
+}
+.btn-mas{
+    height: 25px;
+    width: 30px;
+    background-color: rgb(53, 178, 228);
+    color: #FFF;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+.btn-mas:hover{
+    background-color: rgb(35, 225, 231);
+}
+
+.limpiar-lista:hover{
+    background-color: red;
+}
+
+.limpiar-lista{
+    height: 25px;
+    background-color: rgb(243, 49, 49);
+    color: #FFF;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.tarea{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hecho{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.estilo{
+    color: rgb(46, 189, 70);
+    text-decoration: line-through;
+}
+
+.fuente-vacio{
+    font-family: 'Poppins', sans-serif;
+
+}
+
